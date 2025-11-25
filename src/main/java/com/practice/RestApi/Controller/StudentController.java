@@ -1,7 +1,6 @@
 package com.practice.RestApi.Controller;
 
 import com.practice.RestApi.Dto.StudentDto;
-import com.practice.RestApi.Entity.Student;
 import com.practice.RestApi.Service.StudentService;
 
 import jakarta.validation.Valid;
