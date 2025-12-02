@@ -15,7 +15,7 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable())  // Disable CSRF for POST requests (dev only)
             .authorizeHttpRequests(authz -> authz
-                .requestMatchers("/signup", "/addStudent", "/student").permitAll()  // Allow these without auth
+                .requestMatchers("/signup", "/login", "/addStudent", "/student").permitAll()  // Allow these without auth
                 .anyRequest().authenticated()  // Other requests require auth
             );
         return http.build();
