@@ -19,12 +19,23 @@ public class JwtUtil {
 
     public String generateJwtToken(String email, Long id){
 
+        System.out.println("userId22"+id);
+
         Date now = new Date();
         Date expiry = new Date(now.getTime() + jwExpirationMs);
 
-        String signedJwt = JWT.create().withSubject(email).withIssuedAt(now).withExpiresAt(expiry).sign(Algorithm.HMAC256(jwSecret));
+        String signedJwt = JWT.create().withSubject(email).withClaim("userId", id).withIssuedAt(now).withExpiresAt(expiry).sign(Algorithm.HMAC256(jwSecret));
 
         return signedJwt;
     }
-    
+
+    public Boolean validateJwtToken(String token){
+        try {
+            Algorithm algorithm = Algorithm.HMAC256(jwSecret);
+            JWT.require(algorithm).build().verify(token);
+            return true;
+        } catch (Exception e){
+            return false;
+        }
+    }
 }
