@@ -26,13 +26,13 @@ import java.util.Map;
 public class UserService {
     
     @Autowired
-    public UserRepository userRepository;
+    private UserRepository userRepository;
 
     @Autowired
-    public PasswordEncoder passwordEncoder;
+    private PasswordEncoder passwordEncoder;
 
     @Autowired
-    public JwtUtil jwtUtil;
+    private JwtUtil jwtUtil;
 
     private static final Logger logger = LoggerFactory.getLogger(UserService.class);
 
