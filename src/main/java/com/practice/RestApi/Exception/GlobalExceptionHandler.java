@@ -42,4 +42,8 @@ public class GlobalExceptionHandler {
 
         return ResponseEntity.badRequest().body(response);
     }
+
+    public Void EmptyInputException() {
+        return null;
+    }
 }

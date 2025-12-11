@@ -9,8 +9,12 @@ import com.practice.RestApi.Modules.User.Dto.Response.UserResponseDto;
 import com.practice.RestApi.Modules.User.Entity.User;
 import com.practice.RestApi.Modules.User.Repository.UserRepository;
 import com.practice.RestApi.Security.JwtUtil;
+import com.practice.RestApi.Security.UserPrinciple;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -33,6 +37,9 @@ public class UserService {
 
     @Autowired
     private JwtUtil jwtUtil;
+
+    @Autowired
+    private AuthenticationManager authenticationManager;
 
     private static final Logger logger = LoggerFactory.getLogger(UserService.class);
 
@@ -79,6 +86,7 @@ public class UserService {
 
     public LoginResponseDto login(LoginRequestDto loginRequestDto) {
 
+
         String email = loginRequestDto.getEmail();
         String password = loginRequestDto.getPassword();
         String phone = loginRequestDto.getPhone();
@@ -87,23 +95,21 @@ public class UserService {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Email or phone is required");
         }
 
-        User user = userRepository.findByEmail(email);
-        System.out.println("userDeatis in service"+ user.getId());
-        if (user == null) {
-            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid email or password");
+        if(email == null || email.isBlank() && phone != null){
+            User userPhone = userRepository.findByPhone((phone));
+            if(userPhone == null) {
+                throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid phone or password");
+            }
+            email = userPhone.getEmail();
         }
 
-            String userSavedPassword = user.getPassword();
-            Boolean isPasswordCorrect = passwordEncoder.matches(password, userSavedPassword);
+            Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(email, password));
+
+            UserPrinciple userDetails = (UserPrinciple) authentication.getPrincipal();
+            User user = userDetails.getUser();
 
 
-            if (!isPasswordCorrect) {
-                throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid email or password");
-            }
-
-            System.out.println("srvice userId"+user.getId());
-
-            String generatedJwt = jwtUtil.generateJwtToken(email, user.getId());
+            String generatedJwt = jwtUtil.generateJwtToken(email, user.getId(), user.getRole());
 
             UserResponseDto userResponseDto = new UserResponseDto();
             userResponseDto.setId(user.getId());

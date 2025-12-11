@@ -39,4 +39,8 @@ public class UserController {
     public ResponseEntity<SignUpResponseDto> updateProfile(@Valid @RequestBody UpdateProfileRequestDto updateProfileRequestDto) {
         return ResponseEntity.ok(userService.updateProfile(updateProfileRequestDto));
     }
+
+
+    //Todo add update role controller for admin user
+
 }

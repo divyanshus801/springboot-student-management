@@ -1,7 +1,9 @@
 package com.practice.RestApi.Modules.User.Entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -10,6 +12,8 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "app_user")
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
 
     //role enums
