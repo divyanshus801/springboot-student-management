@@ -11,6 +11,11 @@ import java.time.LocalDateTime;
 
 @Entity
 @Data
+@Table(
+        uniqueConstraints = {
+                @UniqueConstraint(columnNames = {"slotNumber", "parking_location_id"})
+        }
+)
 public class ParkingSlot {
 
     public enum ParkingSlotStatus {

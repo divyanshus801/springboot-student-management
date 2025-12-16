@@ -1,5 +1,6 @@
 package com.practice.RestApi.Exception;
 
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -41,6 +42,20 @@ public class GlobalExceptionHandler {
         response.put("errors", errors );
 
         return ResponseEntity.badRequest().body(response);
+    }
+
+    @ExceptionHandler(DataIntegrityViolationException.class)
+    public ResponseEntity<Map<String, Object>> handleUniqueConstraintError(ResponseStatusException ex) {
+
+        System.err.println(ex.getMessage());
+
+        Map<String, Object> body = new HashMap<>();
+        body.put("status", "error");
+        body.put("message", ex.getReason()); // <-- shows your actual message
+
+        return ResponseEntity
+                .status(ex.getStatusCode())
+                .body(body);
     }
 
     public Void EmptyInputException() {

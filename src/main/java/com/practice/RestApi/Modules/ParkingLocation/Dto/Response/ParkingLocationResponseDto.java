@@ -1,6 +1,6 @@
 package com.practice.RestApi.Modules.ParkingLocation.Dto.Response;
 
-import com.practice.RestApi.Modules.User.Entity.User;
+//import com.practice.RestApi.Modules.User.Entity.User;
 import lombok.Data;
 
 import java.time.LocalDateTime;
