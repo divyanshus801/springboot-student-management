@@ -60,8 +60,6 @@ public class ParkingSlotService {
 
        ParkingSlot savedParkingSlot =   parkingSlotRepository.save(parkingSlot);
 
-       System.out.println(savedParkingSlot);
-
        ParkingSlotResponseDto parkingSlotResponseDto = new ParkingSlotResponseDto();
        parkingSlotResponseDto.setId(savedParkingSlot.getId());
        parkingSlotResponseDto.setSlotNumber(savedParkingSlot.getSlotNumber());

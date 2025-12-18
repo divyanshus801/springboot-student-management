@@ -1,409 +1,55 @@
-2025-12-16T00:11:39.961+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m21s734ms).
-2025-12-16T00:17:32.647+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m52s645ms).
-2025-12-16T00:18:28.525+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55s878ms).
-2025-12-16T00:25:33.865+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m5s339ms).
-2025-12-16T00:28:06.249+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s385ms).
-2025-12-16T00:39:48.107+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m41s858ms).
-2025-12-16T01:17:58.172+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m9s786ms).
-2025-12-16T01:25:52.607+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m24s419ms).
-2025-12-16T01:30:48.266+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m55s659ms).
-2025-12-16T01:37:01.235+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m42s957ms).
-2025-12-16T01:38:25.091+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s857ms).
-2025-12-16T01:54:20.636+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s544ms).
-2025-12-16T02:10:15.518+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s883ms).
-2025-12-16T02:26:40.337+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s828ms).
-2025-12-16T02:43:05.312+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s966ms).
-2025-12-16T02:59:01.132+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s820ms).
-2025-12-16T03:13:20.503+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m49s347ms).
-2025-12-16T03:29:15.410+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s906ms).
-2025-12-16T04:01:25.252+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m39s822ms).
-2025-12-16T04:17:50.221+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s958ms).
-2025-12-16T04:34:07.725+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m47s481ms).
-2025-12-16T04:49:49.460+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m41s735ms).
-2025-12-16T05:06:15.062+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s584ms).
-2025-12-16T05:20:57.774+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m42s712ms).
-2025-12-16T05:37:22.655+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s890ms).
-2025-12-16T05:53:28.096+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m35s442ms).
-2025-12-16T06:09:23.822+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s726ms).
-2025-12-16T06:25:48.800+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s969ms).
-2025-12-16T06:41:43.765+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s965ms).
-2025-12-16T06:42:48.003+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s238ms).
-2025-12-16T06:58:43.697+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s694ms).
-2025-12-16T07:10:46.638+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m2s941ms).
-2025-12-16T07:26:41.517+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s879ms).
-2025-12-16T07:43:06.420+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s914ms).
-2025-12-16T07:59:01.352+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s932ms).
-2025-12-16T08:15:26.291+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s941ms).
-2025-12-16T08:31:21.956+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s664ms).
-2025-12-16T08:47:47.662+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s711ms).
-2025-12-16T09:03:42.551+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s889ms).
-2025-12-16T09:12:12.020+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m59s468ms).
-2025-12-16T09:28:07.729+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s709ms).
-2025-12-16T09:44:03.396+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s667ms).
-2025-12-16T10:00:29.110+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s686ms).
-2025-12-16T10:12:48.113+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m19s3ms).
-2025-12-16T10:29:10.369+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m52s240ms).
-2025-12-16T10:36:47.734+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m37s365ms).
-2025-12-16T10:51:17.005+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m59s265ms).
-2025-12-16T10:54:21.679+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m4s673ms).
-2025-12-16T10:56:57.371+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s678ms).
-2025-12-16T11:01:15.767+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m18s361ms).
-2025-12-16T11:05:39.576+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s780ms).
-2025-12-16T11:14:39.475+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s826ms), soft-evicting connections from pool.
-2025-12-16T11:49:25.665+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m45s851ms).
-2025-12-16T11:58:21.705+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m26s27ms).
-2025-12-16T11:59:42.688+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s983ms).
-2025-12-16T12:01:27.054+05:30  WARN 33272 --- [RestApi] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Slots are full for this parking location"]
-2025-12-16T12:11:23.933+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s916ms).
-2025-12-16T12:53:25.239+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m31s97ms).
-2025-12-16T13:17:56.050+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m56s645ms).
-2025-12-16T13:22:03.945+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m7s870ms).
-2025-12-16T13:25:59.471+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m25s513ms).
-2025-12-16T13:33:19.582+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m20s111ms).
-2025-12-16T14:29:16.751+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m45s224ms).
-2025-12-16T14:50:15.138+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m58s387ms).
-2025-12-16T14:59:44.173+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m29s22ms).
-2025-12-16T15:13:08.024+05:30  WARN 33272 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s763ms).
-2025-12-16T15:36:02.132+05:30  INFO 82669 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Starting RestApiApplication using Java 25.0.1 with PID 82669 (/Users/koshishindia/Downloads/RestApi/target/classes started by koshishindia in /Users/koshishindia/Downloads/RestApi)
-2025-12-16T15:36:02.134+05:30  INFO 82669 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-12-16T15:36:02.173+05:30  INFO 82669 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-16T15:36:02.174+05:30  INFO 82669 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-16T15:36:02.479+05:30  INFO 82669 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-16T15:36:02.505+05:30  INFO 82669 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
-2025-12-16T15:36:02.579+05:30  INFO 33272 --- [RestApi] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 34 class path changes (0 additions, 0 deletions, 34 modifications)
-2025-12-16T15:36:02.598+05:30  INFO 33272 --- [RestApi] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-16T15:36:02.602+05:30  INFO 33272 --- [RestApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-12-16T15:36:02.614+05:30  INFO 33272 --- [RestApi] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T15:36:02.632+05:30  INFO 33272 --- [RestApi] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-16T15:36:02.635+05:30  INFO 33272 --- [RestApi] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-16T15:36:02.751+05:30  INFO 33272 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Starting RestApiApplication using Java 17.0.9 with PID 33272 (/Users/koshishindia/Downloads/RestApi/target/classes started by koshishindia in /Users/koshishindia/Downloads/RestApi)
-2025-12-16T15:36:02.751+05:30  INFO 33272 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-12-16T15:36:02.825+05:30  INFO 82669 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-12-16T15:36:02.833+05:30  INFO 82669 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-16T15:36:02.833+05:30  INFO 82669 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-12-16T15:36:02.864+05:30  INFO 33272 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-16T15:36:02.864+05:30  INFO 82669 --- [RestApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-16T15:36:02.864+05:30  INFO 82669 --- [RestApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 689 ms
-2025-12-16T15:36:02.876+05:30  INFO 33272 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 3 JPA repository interfaces.
-2025-12-16T15:36:02.947+05:30  INFO 33272 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-12-16T15:36:02.947+05:30  INFO 33272 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-16T15:36:02.947+05:30  INFO 33272 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-12-16T15:36:02.952+05:30  INFO 33272 --- [RestApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-16T15:36:02.952+05:30  INFO 33272 --- [RestApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 199 ms
-2025-12-16T15:36:02.964+05:30  INFO 82669 --- [RestApi] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-16T15:36:02.976+05:30  INFO 33272 --- [RestApi] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-16T15:36:02.979+05:30  INFO 33272 --- [RestApi] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-16T15:36:02.990+05:30  INFO 33272 --- [RestApi] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-16T15:36:02.992+05:30  INFO 33272 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2025-12-16T15:36:02.994+05:30  INFO 82669 --- [RestApi] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-12-16T15:36:03.003+05:30  INFO 33272 --- [RestApi] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@12e6141f
-2025-12-16T15:36:03.003+05:30  INFO 33272 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2025-12-16T15:36:03.014+05:30  INFO 82669 --- [RestApi] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-16T15:36:03.035+05:30  INFO 33272 --- [RestApi] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
-	Database driver: undefined/unknown
-	Database version: 15.14
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-16T15:36:03.129+05:30  INFO 33272 --- [RestApi] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-16T15:36:03.205+05:30  INFO 33272 --- [RestApi] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T15:36:03.238+05:30  INFO 82669 --- [RestApi] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-16T15:36:03.253+05:30  INFO 82669 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-16T15:36:03.262+05:30  INFO 33272 --- [RestApi] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-12-16T15:36:03.263+05:30  WARN 33272 --- [RestApi] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-12-16T15:36:03.269+05:30  WARN 33272 --- [RestApi] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-16T15:36:03.316+05:30  INFO 82669 --- [RestApi] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@334b267a
-2025-12-16T15:36:03.316+05:30  INFO 82669 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-16T15:36:03.351+05:30  INFO 82669 --- [RestApi] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.14
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-16T15:36:03.353+05:30  INFO 33272 --- [RestApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-12-16T15:36:03.362+05:30  INFO 33272 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-12-16T15:36:03.366+05:30  INFO 33272 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Started RestApiApplication in 0.631 seconds (process running for 14883.764)
-2025-12-16T15:36:03.367+05:30  INFO 33272 --- [RestApi] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-12-16T15:36:03.731+05:30  INFO 82669 --- [RestApi] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-16T15:36:03.794+05:30  INFO 82669 --- [RestApi] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T15:36:03.932+05:30  INFO 82669 --- [RestApi] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-12-16T15:36:03.932+05:30  WARN 82669 --- [RestApi] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-12-16T15:36:03.946+05:30  WARN 82669 --- [RestApi] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-16T15:36:04.125+05:30  WARN 82669 --- [RestApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2025-12-16T15:36:04.134+05:30  WARN 82669 --- [RestApi] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
-2025-12-16T15:36:04.135+05:30  INFO 82669 --- [RestApi] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T15:36:04.136+05:30  INFO 82669 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-16T15:36:04.138+05:30  INFO 82669 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-16T15:36:04.147+05:30  INFO 82669 --- [RestApi] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-12-16T15:36:04.155+05:30 ERROR 82669 --- [RestApi] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2025-12-16T15:36:43.414+05:30  INFO 82923 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Starting RestApiApplication using Java 25.0.1 with PID 82923 (/Users/koshishindia/Downloads/RestApi/target/classes started by koshishindia in /Users/koshishindia/Downloads/RestApi)
-2025-12-16T15:36:43.415+05:30  INFO 82923 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-12-16T15:36:43.431+05:30  INFO 82923 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-16T15:36:43.432+05:30  INFO 82923 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-16T15:36:43.645+05:30  INFO 82923 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-16T15:36:43.668+05:30  INFO 82923 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
-2025-12-16T15:36:43.864+05:30  INFO 82923 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-12-16T15:36:43.871+05:30  INFO 82923 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-16T15:36:43.871+05:30  INFO 82923 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-12-16T15:36:43.884+05:30  INFO 82923 --- [RestApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-16T15:36:43.885+05:30  INFO 82923 --- [RestApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 453 ms
-2025-12-16T15:36:43.954+05:30  INFO 82923 --- [RestApi] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-16T15:36:43.970+05:30  INFO 82923 --- [RestApi] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-12-16T15:36:43.981+05:30  INFO 82923 --- [RestApi] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-16T15:36:44.075+05:30  INFO 82923 --- [RestApi] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-16T15:36:44.085+05:30  INFO 82923 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-16T15:36:44.130+05:30  INFO 82923 --- [RestApi] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2864dba7
-2025-12-16T15:36:44.130+05:30  INFO 82923 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-16T15:36:44.155+05:30  INFO 82923 --- [RestApi] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.14
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-16T15:36:44.457+05:30  INFO 82923 --- [RestApi] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-16T15:36:44.517+05:30  INFO 82923 --- [RestApi] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T15:36:44.643+05:30  INFO 82923 --- [RestApi] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-12-16T15:36:44.643+05:30  WARN 82923 --- [RestApi] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-12-16T15:36:44.655+05:30  WARN 82923 --- [RestApi] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-16T15:36:44.823+05:30  INFO 82923 --- [RestApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-12-16T15:36:44.839+05:30  INFO 82923 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-12-16T15:36:44.843+05:30  INFO 82923 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Started RestApiApplication in 1.574 seconds (process running for 1.711)
-2025-12-16T15:45:14.328+05:30  WARN 82923 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m30s37ms).
-2025-12-16T15:55:38.288+05:30  INFO 82923 --- [RestApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-16T15:55:38.294+05:30  INFO 82923 --- [RestApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-12-16T15:55:38.299+05:30  INFO 82923 --- [RestApi] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T15:55:38.302+05:30  INFO 82923 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-16T15:55:38.306+05:30  INFO 82923 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-16T15:55:43.823+05:30  INFO 86267 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Starting RestApiApplication using Java 25.0.1 with PID 86267 (/Users/koshishindia/Downloads/RestApi/target/classes started by koshishindia in /Users/koshishindia/Downloads/RestApi)
-2025-12-16T15:55:43.823+05:30  INFO 86267 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-12-16T15:55:43.840+05:30  INFO 86267 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-16T15:55:43.840+05:30  INFO 86267 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-16T15:55:44.078+05:30  INFO 86267 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-16T15:55:44.102+05:30  INFO 86267 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
-2025-12-16T15:55:44.301+05:30  INFO 86267 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-12-16T15:55:44.308+05:30  INFO 86267 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-16T15:55:44.308+05:30  INFO 86267 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-12-16T15:55:44.321+05:30  INFO 86267 --- [RestApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-16T15:55:44.321+05:30  INFO 86267 --- [RestApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 480 ms
-2025-12-16T15:55:44.384+05:30  INFO 86267 --- [RestApi] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-16T15:55:44.406+05:30  INFO 86267 --- [RestApi] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-12-16T15:55:44.417+05:30  INFO 86267 --- [RestApi] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-16T15:55:44.522+05:30  INFO 86267 --- [RestApi] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-16T15:55:44.532+05:30  INFO 86267 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-16T15:55:44.573+05:30  INFO 86267 --- [RestApi] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37272b55
-2025-12-16T15:55:44.573+05:30  INFO 86267 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-16T15:55:44.599+05:30  INFO 86267 --- [RestApi] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.14
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-16T15:55:44.915+05:30  INFO 86267 --- [RestApi] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-16T15:55:44.986+05:30  INFO 86267 --- [RestApi] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T15:55:45.124+05:30  INFO 86267 --- [RestApi] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-12-16T15:55:45.124+05:30  WARN 86267 --- [RestApi] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-12-16T15:55:45.138+05:30  WARN 86267 --- [RestApi] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-16T15:55:45.308+05:30  INFO 86267 --- [RestApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-12-16T15:55:45.322+05:30  INFO 86267 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-12-16T15:55:45.326+05:30  INFO 86267 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Started RestApiApplication in 1.657 seconds (process running for 1.806)
-2025-12-16T15:56:19.496+05:30  INFO 86267 --- [RestApi] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-16T15:56:19.497+05:30  INFO 86267 --- [RestApi] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-16T15:56:19.500+05:30  INFO 86267 --- [RestApi] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2025-12-16T15:56:19.691+05:30  WARN 86267 --- [RestApi] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Slots are full for this parking location"]
-2025-12-16T15:56:20.563+05:30  WARN 86267 --- [RestApi] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Slots are full for this parking location"]
-2025-12-16T16:00:55.793+05:30  INFO 86267 --- [RestApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-16T16:00:55.799+05:30  INFO 86267 --- [RestApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-12-16T16:00:55.802+05:30  INFO 86267 --- [RestApi] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T16:00:55.805+05:30  INFO 86267 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-16T16:00:55.806+05:30  INFO 86267 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-16T16:01:00.363+05:30  INFO 87291 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Starting RestApiApplication using Java 25.0.1 with PID 87291 (/Users/koshishindia/Downloads/RestApi/target/classes started by koshishindia in /Users/koshishindia/Downloads/RestApi)
-2025-12-16T16:01:00.364+05:30  INFO 87291 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-12-16T16:01:00.380+05:30  INFO 87291 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-16T16:01:00.380+05:30  INFO 87291 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-16T16:01:00.619+05:30  INFO 87291 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-16T16:01:00.644+05:30  INFO 87291 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
-2025-12-16T16:01:00.843+05:30  INFO 87291 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-12-16T16:01:00.849+05:30  INFO 87291 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-16T16:01:00.849+05:30  INFO 87291 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-12-16T16:01:00.862+05:30  INFO 87291 --- [RestApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-16T16:01:00.862+05:30  INFO 87291 --- [RestApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 482 ms
-2025-12-16T16:01:00.923+05:30  INFO 87291 --- [RestApi] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-16T16:01:00.942+05:30  INFO 87291 --- [RestApi] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-12-16T16:01:00.953+05:30  INFO 87291 --- [RestApi] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-16T16:01:01.062+05:30  INFO 87291 --- [RestApi] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-16T16:01:01.073+05:30  INFO 87291 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-16T16:01:01.113+05:30  INFO 87291 --- [RestApi] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37272b55
-2025-12-16T16:01:01.113+05:30  INFO 87291 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-16T16:01:01.141+05:30  INFO 87291 --- [RestApi] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.14
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-16T16:01:01.192+05:30 ERROR 87291 --- [RestApi] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Property 'com.practice.RestApi.Modules.ParkingSlot.Entity.ParkingSlot.slotNumber' is annotated @GeneratedValue but is not part of an identifier
-2025-12-16T16:01:01.193+05:30  WARN 87291 --- [RestApi] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'com.practice.RestApi.Modules.ParkingSlot.Entity.ParkingSlot.slotNumber' is annotated @GeneratedValue but is not part of an identifier
-2025-12-16T16:01:01.193+05:30  INFO 87291 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-16T16:01:01.194+05:30  INFO 87291 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-16T16:01:01.195+05:30  INFO 87291 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2025-12-16T16:01:01.201+05:30  INFO 87291 --- [RestApi] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-12-16T16:01:01.208+05:30 ERROR 87291 --- [RestApi] [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'com.practice.RestApi.Modules.ParkingSlot.Entity.ParkingSlot.slotNumber' is annotated @GeneratedValue but is not part of an identifier
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:973) ~[spring-context-6.2.12.jar:6.2.12]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.12.jar:6.2.12]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
-	at com.practice.RestApi.RestApiApplication.main(RestApiApplication.java:10) ~[classes/:na]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.7.jar:3.5.7]
-Caused by: org.hibernate.AnnotationException: Property 'com.practice.RestApi.Modules.ParkingSlot.Entity.ParkingSlot.slotNumber' is annotated @GeneratedValue but is not part of an identifier
-	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1085) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:419) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:251) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:404) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:266) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.12.jar:6.2.12]
-	... 18 common frames omitted
-
-2025-12-16T16:37:38.401+05:30  INFO 92758 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Starting RestApiApplication using Java 25.0.1 with PID 92758 (/Users/koshishindia/Downloads/RestApi/target/classes started by koshishindia in /Users/koshishindia/Downloads/RestApi)
-2025-12-16T16:37:38.402+05:30  INFO 92758 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-12-16T16:37:38.420+05:30  INFO 92758 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-16T16:37:38.420+05:30  INFO 92758 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-16T16:37:38.654+05:30  INFO 92758 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-16T16:37:38.679+05:30  INFO 92758 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
-2025-12-16T16:37:38.890+05:30  INFO 92758 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-12-16T16:37:38.897+05:30  INFO 92758 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-16T16:37:38.897+05:30  INFO 92758 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-12-16T16:37:38.909+05:30  INFO 92758 --- [RestApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-16T16:37:38.910+05:30  INFO 92758 --- [RestApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 489 ms
-2025-12-16T16:37:38.974+05:30  INFO 92758 --- [RestApi] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-16T16:37:38.992+05:30  INFO 92758 --- [RestApi] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-12-16T16:37:39.002+05:30  INFO 92758 --- [RestApi] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-16T16:37:39.106+05:30  INFO 92758 --- [RestApi] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-16T16:37:39.116+05:30  INFO 92758 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-16T16:37:39.161+05:30  INFO 92758 --- [RestApi] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@641c48e2
-2025-12-16T16:37:39.162+05:30  INFO 92758 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-16T16:37:39.191+05:30  INFO 92758 --- [RestApi] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.14
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-16T16:37:39.511+05:30  INFO 92758 --- [RestApi] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-16T16:37:39.556+05:30  WARN 92758 --- [RestApi] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2025-12-16T16:37:39.556+05:30  WARN 92758 --- [RestApi] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "ukqnhxrycjyrb6l0vbc3hja5m1q" of relation "parking_slot" does not exist, skipping
-2025-12-16T16:37:39.586+05:30  INFO 92758 --- [RestApi] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T16:37:39.721+05:30  INFO 92758 --- [RestApi] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-12-16T16:37:39.721+05:30  WARN 92758 --- [RestApi] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-12-16T16:37:39.734+05:30  WARN 92758 --- [RestApi] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-16T16:37:39.904+05:30  INFO 92758 --- [RestApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-12-16T16:37:39.917+05:30  INFO 92758 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-12-16T16:37:39.921+05:30  INFO 92758 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Started RestApiApplication in 1.679 seconds (process running for 1.832)
-2025-12-16T16:37:53.804+05:30  INFO 92758 --- [RestApi] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-16T16:37:53.804+05:30  INFO 92758 --- [RestApi] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-16T16:37:53.806+05:30  INFO 92758 --- [RestApi] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-12-16T16:47:59.338+05:30  INFO 92758 --- [RestApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-16T16:47:59.345+05:30  INFO 92758 --- [RestApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-12-16T16:47:59.349+05:30  INFO 92758 --- [RestApi] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T16:47:59.354+05:30  INFO 92758 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-16T16:47:59.355+05:30  INFO 92758 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-12-16T16:48:04.012+05:30  INFO 94828 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Starting RestApiApplication using Java 25.0.1 with PID 94828 (/Users/koshishindia/Downloads/RestApi/target/classes started by koshishindia in /Users/koshishindia/Downloads/RestApi)
-2025-12-16T16:48:04.013+05:30  INFO 94828 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-12-16T16:48:04.029+05:30  INFO 94828 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-12-16T16:48:04.030+05:30  INFO 94828 --- [RestApi] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-12-16T16:48:04.267+05:30  INFO 94828 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-16T16:48:04.291+05:30  INFO 94828 --- [RestApi] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 3 JPA repository interfaces.
-2025-12-16T16:48:04.495+05:30  INFO 94828 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-12-16T16:48:04.502+05:30  INFO 94828 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-16T16:48:04.502+05:30  INFO 94828 --- [RestApi] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-12-16T16:48:04.515+05:30  INFO 94828 --- [RestApi] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-12-16T16:48:04.515+05:30  INFO 94828 --- [RestApi] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 485 ms
-2025-12-16T16:48:04.576+05:30  INFO 94828 --- [RestApi] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-16T16:48:04.595+05:30  INFO 94828 --- [RestApi] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-12-16T16:48:04.605+05:30  INFO 94828 --- [RestApi] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-12-16T16:48:04.707+05:30  INFO 94828 --- [RestApi] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-16T16:48:04.717+05:30  INFO 94828 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-16T16:48:04.759+05:30  INFO 94828 --- [RestApi] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2837430a
-2025-12-16T16:48:04.760+05:30  INFO 94828 --- [RestApi] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-16T16:48:04.786+05:30  INFO 94828 --- [RestApi] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 15.14
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-12-16T16:48:05.097+05:30  INFO 94828 --- [RestApi] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-16T16:48:05.138+05:30  WARN 94828 --- [RestApi] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
-2025-12-16T16:48:05.138+05:30  WARN 94828 --- [RestApi] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : constraint "ukqnhxrycjyrb6l0vbc3hja5m1q" of relation "parking_slot" does not exist, skipping
-2025-12-16T16:48:05.172+05:30  INFO 94828 --- [RestApi] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T16:48:05.308+05:30  INFO 94828 --- [RestApi] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2025-12-16T16:48:05.309+05:30  WARN 94828 --- [RestApi] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2025-12-16T16:48:05.322+05:30  WARN 94828 --- [RestApi] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-16T16:48:05.493+05:30  INFO 94828 --- [RestApi] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-12-16T16:48:05.506+05:30  INFO 94828 --- [RestApi] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-12-16T16:48:05.511+05:30  INFO 94828 --- [RestApi] [restartedMain] c.practice.RestApi.RestApiApplication    : Started RestApiApplication in 1.642 seconds (process running for 1.782)
-2025-12-16T16:48:11.952+05:30  INFO 94828 --- [RestApi] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-12-16T16:48:11.952+05:30  INFO 94828 --- [RestApi] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-12-16T16:48:11.953+05:30  INFO 94828 --- [RestApi] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2025-12-16T16:48:31.638+05:30  WARN 94828 --- [RestApi] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Slots are full for this parking location"]
-2025-12-16T16:48:33.395+05:30  WARN 94828 --- [RestApi] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Slots are full for this parking location"]
-2025-12-16T16:48:34.105+05:30  WARN 94828 --- [RestApi] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Slots are full for this parking location"]
-2025-12-16T16:49:10.094+05:30  WARN 94828 --- [RestApi] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Slots are full for this parking location"]
-2025-12-16T16:49:10.598+05:30  WARN 94828 --- [RestApi] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Slots are full for this parking location"]
-2025-12-16T16:49:31.841+05:30  INFO 94828 --- [RestApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-16T16:49:31.851+05:30  INFO 94828 --- [RestApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-12-16T16:49:31.857+05:30  INFO 94828 --- [RestApi] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-16T16:49:31.861+05:30  INFO 94828 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-16T16:49:31.862+05:30  INFO 94828 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-18T00:01:24.824+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m48s468ms).
+2025-12-18T00:31:27.588+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m32s539ms).
+2025-12-18T00:57:11.441+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m43s793ms).
+2025-12-18T01:06:33.939+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m22s498ms).
+2025-12-18T01:21:49.134+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m45s203ms).
+2025-12-18T01:41:21.083+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s741ms).
+2025-12-18T02:21:46.257+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s949ms).
+2025-12-18T02:38:11.902+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s629ms).
+2025-12-18T02:54:07.783+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s882ms).
+2025-12-18T03:10:33.464+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s684ms).
+2025-12-18T03:26:29.082+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s619ms).
+2025-12-18T03:42:54.011+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s915ms).
+2025-12-18T03:58:34.269+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m40s257ms).
+2025-12-18T04:06:47.189+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m42s913ms).
+2025-12-18T04:22:42.851+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s664ms).
+2025-12-18T04:39:08.667+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s807ms).
+2025-12-18T04:55:34.401+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s709ms).
+2025-12-18T05:11:29.325+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s925ms).
+2025-12-18T05:27:54.999+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s656ms).
+2025-12-18T05:43:49.921+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s921ms).
+2025-12-18T06:00:15.818+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s884ms).
+2025-12-18T06:16:11.328+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s509ms).
+2025-12-18T06:32:36.976+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s634ms).
+2025-12-18T06:48:32.698+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s723ms).
+2025-12-18T07:04:58.396+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s683ms).
+2025-12-18T07:20:53.302+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s905ms).
+2025-12-18T07:36:52.505+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m29s193ms).
+2025-12-18T07:52:27.750+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m35s245ms).
+2025-12-18T08:00:23.811+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m26s34ms).
+2025-12-18T08:16:18.820+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s9ms).
+2025-12-18T08:32:44.467+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s645ms).
+2025-12-18T08:48:40.151+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s684ms).
+2025-12-18T09:04:42.895+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m32s726ms).
+2025-12-18T09:21:07.835+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s910ms).
+2025-12-18T09:37:03.512+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s676ms).
+2025-12-18T09:48:59.245+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m25s722ms).
+2025-12-18T09:52:51.911+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52s644ms).
+2025-12-18T10:03:58.900+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m36s965ms).
+2025-12-18T10:20:23.825+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s894ms).
+2025-12-18T10:34:58.898+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m35s72ms).
+2025-12-18T10:44:32.953+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m34s23ms).
+2025-12-18T11:34:30.382+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m27s52ms).
+2025-12-18T11:44:25.369+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m24s971ms).
+2025-12-18T12:11:14.243+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m48s714ms).
+2025-12-18T12:54:09.239+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m24s761ms).
+2025-12-18T13:10:34.889+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m55s635ms).
+2025-12-18T13:26:29.754+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m54s866ms).
+2025-12-18T13:30:06.205+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m6s438ms).
+2025-12-18T13:40:33.870+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m27s627ms).
+2025-12-18T13:42:49.493+05:30  WARN 95449 --- [RestApi] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=45s584ms).
+2025-12-18T23:52:34.578+05:30  INFO 95449 --- [RestApi] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-18T23:52:34.599+05:30  INFO 95449 --- [RestApi] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-12-18T23:52:34.612+05:30  INFO 95449 --- [RestApi] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-18T23:52:34.642+05:30  INFO 95449 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-18T23:52:34.645+05:30  INFO 95449 --- [RestApi] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
