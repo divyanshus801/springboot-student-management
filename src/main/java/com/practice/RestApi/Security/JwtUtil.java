@@ -20,8 +20,6 @@ public class JwtUtil {
 
     public String generateJwtToken(String email, Long id, User.Role role){
 
-        System.out.println("userId22"+role);
-
         Date now = new Date();
         Date expiry = new Date(now.getTime() + jwExpirationMs);
 

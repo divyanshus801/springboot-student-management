@@ -18,11 +18,12 @@ public class SlotBookingEntity {
     @Column(nullable = false)
     private Long id;
 
-    @Column(nullable = false)
-
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "booked_user_id", nullable = false)
     private User bookedUserId;
 
-    @Column(nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "slot_id", nullable = false)
     private ParkingSlot slotId;
 
     @Column(nullable = false)

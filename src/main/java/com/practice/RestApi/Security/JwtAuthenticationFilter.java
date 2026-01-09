@@ -54,6 +54,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             Long userId = JWT.decode(token).getClaim("userId").asLong();
             String role = JWT.decode(token).getClaim("role").asString();
 
+            System.out.println("57"+role);
+
             String AuthorityName = "ROLE_" + role;
             SimpleGrantedAuthority authority = new SimpleGrantedAuthority(AuthorityName);
 

@@ -1,6 +1,7 @@
 package com.practice.RestApi.Exception;
 
 import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -13,10 +14,9 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
+    /* ===================== 1. BUSINESS ERRORS ===================== */
     @ExceptionHandler(ResponseStatusException.class)
     public ResponseEntity<Map<String, Object>> handleResponseStatus(ResponseStatusException ex) {
-
-        System.err.println(ex.getMessage());
 
         Map<String, Object> body = new HashMap<>();
         body.put("status", "error");
@@ -27,6 +27,7 @@ public class GlobalExceptionHandler {
                 .body(body);
     }
 
+    /* ===================== 2. VALIDATION ERRORS ===================== */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, Object>> handleValidationErrors(MethodArgumentNotValidException ex) {
 
@@ -44,21 +45,24 @@ public class GlobalExceptionHandler {
         return ResponseEntity.badRequest().body(response);
     }
 
+    /* ===================== 1. DATABASE CONSTRAINT ERRORS ===================== */
     @ExceptionHandler(DataIntegrityViolationException.class)
-    public ResponseEntity<Map<String, Object>> handleUniqueConstraintError(ResponseStatusException ex) {
+    public ResponseEntity<Map<String, Object>> handleUniqueConstraintError(DataIntegrityViolationException ex) {
 
-        System.err.println(ex.getMessage());
+        String message = "Invalid Data";
+
+        if(ex.getCause() != null && ex.getCause().getMessage().contains("duplicate")){
+            message = "Duplicate entry found, violates unique constraint.";
+        }
 
         Map<String, Object> body = new HashMap<>();
         body.put("status", "error");
-        body.put("message", ex.getReason()); // <-- shows your actual message
+        body.put("message", message); // <-- shows your actual message
 
         return ResponseEntity
-                .status(ex.getStatusCode())
+                .status(HttpStatus.CONFLICT)
                 .body(body);
     }
 
-    public Void EmptyInputException() {
-        return null;
-    }
+
 }
