@@ -18,6 +18,7 @@ public class ParkingLocationMapper {
         dto.setLongitude(parkingLocation.getLongitude().doubleValue());
         dto.setTotalSlots(parkingLocation.getTotalSlots());
         dto.setAvailableSlots(parkingLocation.getAvailableSlots());
+        dto.setPricePerHour(parkingLocation.getPricePerHour());
         dto.setCreatedAt(parkingLocation.getCreatedAt());
         dto.setUpdatedAt(parkingLocation.getUpdatedAt());
 

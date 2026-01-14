@@ -18,6 +18,7 @@ public class ParkingLocationResponseDto {
     private Double longitude;
     private Double totalSlots;
     private Double availableSlots;
+    private Double pricePerHour;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 }

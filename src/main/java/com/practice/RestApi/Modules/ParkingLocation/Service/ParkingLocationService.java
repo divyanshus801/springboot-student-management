@@ -30,6 +30,7 @@ public class ParkingLocationService {
             Float latitude = createParkingLocationRequestDto.getLatitude();
             Float longitude = createParkingLocationRequestDto.getLongitude();
             Double totalSlots = createParkingLocationRequestDto.getTotalSlots();
+            Double pricePerHour = createParkingLocationRequestDto.getPricePerHour();
 
             Long userId = (Long) SecurityContextHolder.getContext().getAuthentication().getDetails();
             User user = new User();
@@ -45,6 +46,7 @@ public class ParkingLocationService {
             parkingLocation.setTotalSlots(totalSlots);
             parkingLocation.setAvailableSlots(totalSlots);
             parkingLocation.setOwner(user);
+            parkingLocation.setPricePerHour(pricePerHour);
 
             ParkingLocation savedLocation = parkingLocationRepository.save(parkingLocation);
             ParkingLocationResponseDto parkingLocationResponseDto = new ParkingLocationResponseDto();
@@ -57,6 +59,7 @@ public class ParkingLocationService {
             parkingLocationResponseDto.setLongitude(Double.valueOf(savedLocation.getLongitude()));
             parkingLocationResponseDto.setTotalSlots(savedLocation.getTotalSlots());
             parkingLocationResponseDto.setAvailableSlots(savedLocation.getAvailableSlots());
+            parkingLocationResponseDto.setPricePerHour(savedLocation.getPricePerHour());
             parkingLocationResponseDto.setCreatedAt(savedLocation.getCreatedAt());
             parkingLocationResponseDto.setUpdatedAt(savedLocation.getUpdatedAt());
             parkingLocationResponseDto.setOwnerId(savedLocation.getOwner().getId());

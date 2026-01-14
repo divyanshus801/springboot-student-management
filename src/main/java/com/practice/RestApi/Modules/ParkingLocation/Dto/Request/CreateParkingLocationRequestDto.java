@@ -35,4 +35,7 @@ public class CreateParkingLocationRequestDto {
     @Positive(message = "Total slots must be positive number")
     private Double totalSlots;
 
+    @NotNull(message = "Price Per Hour is Mandatory")
+    @Positive(message = "Price Per Hour should be positive Number")
+    private Double pricePerHour;
 }

@@ -46,6 +46,9 @@ public class ParkingLocation {
     private User owner;
 
     @Column(nullable = false)
+    private Double pricePerHour;
+
+    @Column(nullable = false)
     @CreationTimestamp
     private LocalDateTime createdAt;
 
