@@ -10,14 +10,19 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
+@Table(indexes = {
+        @Index(name = "idx_booking_slot_time", columnList = "slot_id, start_time, end_time"),
+        @Index(name = "idx_booking_status", columnList = "booking_status"),
+        @Index(name = "idx_booking_user", columnList = "booked_user_id")
+})
 @Entity
 @Data
 public class SlotBookingEntity {
 
-    public  enum BookingStatus  {
+    public enum BookingStatus {
         CREATED,
-        CONFIRMED ,
-        CHECKED_IN ,
+        CONFIRMED,
+        CHECKED_IN,
         COMPLETED
     }
 
